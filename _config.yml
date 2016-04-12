@@ -1,6 +1,7 @@
 permalink: /news/:year/:month/:day/:title/
 safe: true
 lsi: false
+baseurl: /arewenumericyet/
 
 kramdown:
   input: GFM
