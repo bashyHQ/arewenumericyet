@@ -34,7 +34,7 @@ layout: frame
           {% if author %}
             <img src="{{author.img|default:'/asset/bashy-big.svg'}}">
             <a {% if author.curator %}
-                href="/curators/#{{cmt.author}}"
+                href="{{site.baseurl}}/curators/#{{cmt.author}}"
               {% else %}
                 href="{{author.homepage}}"
               {% endif %}>

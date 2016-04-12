@@ -6,7 +6,7 @@ layout: main
 
 **You can build stuff!**
 
-<p>Rust has a mature <a href="/topics/stack/">HTTP stack</a>{% include level.html level=2%} and various <a href="/topics/frameworks/">frameworks</a>{% include level.html level=3 %} enable you to build APIs and backend services quickly. While increasingly more <a href="/topics/database/#drivers">databases drivers</a>{% include level.html level=2 %} become available, <a href="/topics/database/#orms">ORMs</a>{% include level.html level=5 %} and connections to <a href="/topics/services/">external services</a>{% include level.html level=5 %} (like search or worker queues) are still scarce. Looking farther, it doesn't necessarily get better. Though there is significant support for base needs (like <a href="/topics/compression/">data compression</a>{% include level.html level=2 %} or <a href="/topics/logging/">logging</a>{% include level.html level=2 %}), a lot more web-specific needs are still unmet and immature.</p>
+<p>Rust has a mature <a href="{{site.baseurl}}/topics/stack/">HTTP stack</a>{% include level.html level=2%} and various <a href="{{site.baseurl}}/topics/frameworks/">frameworks</a>{% include level.html level=3 %} enable you to build APIs and backend services quickly. While increasingly more <a href="{{site.baseurl}}/topics/database/#drivers">databases drivers</a>{% include level.html level=2 %} become available, <a href="{{site.baseurl}}/topics/database/#orms">ORMs</a>{% include level.html level=5 %} and connections to <a href="{{site.baseurl}}/topics/services/">external services</a>{% include level.html level=5 %} (like search or worker queues) are still scarce. Looking farther, it doesn't necessarily get better. Though there is significant support for base needs (like <a href="{{site.baseurl}}/topics/compression/">data compression</a>{% include level.html level=2 %} or <a href="{{site.baseurl}}/topics/logging/">logging</a>{% include level.html level=2 %}), a lot more web-specific needs are still unmet and immature.</p>
 
 <p>&nbsp;</p>
 
@@ -16,9 +16,9 @@ layout: main
 
 ### What should I replace it with?
 
-The frameworks of choice of the community are <a href="/topics/frameworks/#pkg-iron">iron</a>, <a href="/topics/frameworks/#pkg-conduit">conduit</a> and <a href="/topics/frameworks/#pkg-nickel">nickel</a>, best run with a <a href="/topics/database/#pkg-postgres">postgres</a> or <a href="/topics/database/#pkg-mysql">mysql</a> backend accompanied by <a href="/topics/database/#pkg-redis">redis</a> – all these drivers seem to be fairly mature. If you want to wrap that into an ORM <a href="/topics/database/#pkg-rustorm">rustorm</a> and <a href="/topics/frameworks/#pkg-diesel">diesel</a> are at your disposal – both are still fairly young though.
+The frameworks of choice of the community are <a href="{{site.baseurl}}/topics/frameworks/#pkg-iron">iron</a>, <a href="{{site.baseurl}}/topics/frameworks/#pkg-conduit">conduit</a> and <a href="{{site.baseurl}}/topics/frameworks/#pkg-nickel">nickel</a>, best run with a <a href="{{site.baseurl}}/topics/database/#pkg-postgres">postgres</a> or <a href="{{site.baseurl}}/topics/database/#pkg-mysql">mysql</a> backend accompanied by <a href="{{site.baseurl}}/topics/database/#pkg-redis">redis</a> – all these drivers seem to be fairly mature. If you want to wrap that into an ORM <a href="{{site.baseurl}}/topics/database/#pkg-rustorm">rustorm</a> and <a href="{{site.baseurl}}/topics/frameworks/#pkg-diesel">diesel</a> are at your disposal – both are still fairly young though.
 
-If you need to (or want to) go lower in the stack, those frameworks all use the fairly stable and mature <a href="/topics/stack/#pkg-hyper">hyper http stack</a>, if you want it slimmer <a href="/topics/stack/#pkg-tiny_http">tiny_http</a> might be an option and for the async-fans <a href="/topics/stack/#pkg-rotor-http">rotor</a> has you covered. If you need HTTP2, you have to turn to <a href="/topics/stack/#pkg-solicit">solicit</a> as none of the other stacks supports it just yet.
+If you need to (or want to) go lower in the stack, those frameworks all use the fairly stable and mature <a href="{{site.baseurl}}/topics/stack/#pkg-hyper">hyper http stack</a>, if you want it slimmer <a href="{{site.baseurl}}/topics/stack/#pkg-tiny_http">tiny_http</a> might be an option and for the async-fans <a href="{{site.baseurl}}/topics/stack/#pkg-rotor-http">rotor</a> has you covered. If you need HTTP2, you have to turn to <a href="{{site.baseurl}}/topics/stack/#pkg-solicit">solicit</a> as none of the other stacks supports it just yet.
 
 ### Getting started
 
@@ -39,7 +39,7 @@ learn more about the state of web developer in rust by topic:
   {% endfor %}
 </ul>
 
-<h3> Latest News <a href="/atom.xml" title="subscribe"><i class="fa fa-rss-square"></i></a></h3>
+<h3> Latest News <a href="{{site.baseurl}}/atom.xml" title="subscribe"><i class="fa fa-rss-square"></i></a></h3>
 
 <ul class="related-news">
   {% for post in site.posts | limit:5 %}

@@ -8,7 +8,7 @@
       <a {% if cmt.source_link %}
           href="{{cmt.source_link}}"
         {% elsif author.curator %}
-          href="/curators/#{{cmt.author}}"
+          href="{{site.baseurl}}/curators/#{{cmt.author}}"
         {% else %}
           href="{{author.homepage}}"
         {% endif %}>

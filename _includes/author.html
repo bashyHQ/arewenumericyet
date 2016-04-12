@@ -2,7 +2,7 @@
 
 <div class="author">
   {% if author.curator %}
-    <a href="/curators/#{{include.author}}">
+    <a href="{{site.baseurl}}/curators/#{{include.author}}">
   {% endif %}
 
     <img class="avatar" src="{{author.img | default: '/asset/bashy-big.svg'}}" />

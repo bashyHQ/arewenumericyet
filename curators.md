@@ -4,7 +4,7 @@ title: Curators
 permalink: /curators/
 ---
 
-<a href="/">Are We Web Yet</a> (AWWY) is curated by:
+<a href="{{site.baseurl}}/">Are We Web Yet</a> (AWWY) is curated by:
 
 {% for kv in site.data.authors %}
   {% if kv[1].curator %}
