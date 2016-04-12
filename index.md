@@ -2,7 +2,7 @@
 layout: main
 ---
 
-# Are we *web* yet?
+# Are we *numeric* yet?
 
 **You can build stuff!**
 
