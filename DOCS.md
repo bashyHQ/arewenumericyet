@@ -15,7 +15,7 @@ bundle install
 To compile the documents run from the main directory
 
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll serve --baseurl
 ```
 
 Now open a browser on `http://localhost:4000` and you'll be able to see the homepage in its latest version. Any changes you make immediately rerender the websites after saving the file, you just need to refresh the browser. Note: for changes done to the `_config.yml` you need to restart `jekyll`.
