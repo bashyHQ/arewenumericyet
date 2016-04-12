@@ -17,7 +17,7 @@ And add a few words to the PR (or issue) about the package and why it should be 
 
 ## Submitting Project News
 
-You have an important announcement or latest news related to web development in rust and you'd like to share them with the wider audience of this website? GREAT, here is how you can do that:
+You have an important announcement or latest news related to numerical algorithm development in rust and you'd like to share them with the wider audience of this website? GREAT, here is how you can do that:
 
 We are using the normal [jekyll blog engine features](http://jekyllrb.com/docs/posts/) to provide news. Just create a new file in `_posts` - we recommend to use Markdown. Make sure you set the `layout` to `news` and added all appropriate `tags`. Once you are done, please submit all of that as a pull-request and we get right on it!
 
