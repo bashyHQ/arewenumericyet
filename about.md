@@ -1,16 +1,16 @@
 ---
 layout: page
-title: About AWWY
+title: About AWNY
 permalink: /about/
 ---
 
 ## About
 
-Are We Web Yet – or AWWY (pronounced _a-we?_) for short – tries to answer the question: **Can I use Rust to do web development (yet)?**
+Are We Numeric Yet – or AWNY (pronounced _awe-ni?_) for short – tries to answer the question: **Can I use Rust to develop numerical algorithms (yet)?**
 
 ## How to use the site
 
-This website has various features that make your life easier researching whether you can use Rust for the web development already or not. While some stuff is possible already, other parts are still challenging and this website wants to give you insight for your particular case. The easiest is to start looking into the [topics](/topics/) most relevant for you.
+This website has various features that make your life easier researching whether you can use Rust for the numerical algorithm development already or not. While some stuff is possible already, other parts are still challenging and this website wants to give you insight for your particular case. The easiest is to start looking into the [topics](/topics/) most relevant for you.
 
 While most things should be rather quick to comprehend, there are some features, we'd like to explain to you a little deeper to improve the speed with which you can answer the question for you.
 
@@ -18,7 +18,7 @@ While most things should be rather quick to comprehend, there are some features,
 
 ![Package Info](/assets/about/package-info.png)
 
-For each package we list the most important information in one quick view. Aside from the package id (`hyper`), the header shows various links – if available: the crate.io-page, the homepage, the documentation and to the source code. Tip: When you hover over name, it also shows when the package was created and last updated.
+For each package we list the most important information in one quick view. Aside from the package id (`ndarray`), the header shows various links – if available: the crate.io-page, the homepage, the documentation and to the source code. Tip: When you hover over name, it also shows when the package was created and last updated.
 
 In the second row features the latest published version number, how often the package has been downloaded so far and how it is licensed – all as pretty badges of live data pulled from [shields.io](http://shields.io/).
 
@@ -57,4 +57,4 @@ If you need a reminder, you can also just hover over the glyph to get the text.
 
 ## Credits
 
-This project is hosted and largely developed by [The Bashy](http://bashy.io/), specifically [Benjamin Kampmann](/curators/#ben). The content is curated by the [curators](/curators/). The first version was developed and hosted by [Chris Morgan](https://github.com/chris-morgan). All content is licensed under the [Creative Commons Attribution License (International)](https://github.com/bashyHQ/arewewebyet/blob/gh-pages/LICENSE).
+The content is curated by the [curators](/curators/). This project is hosted and derived from Are We Web Yet by [The Bashy](http://bashy.io/), specifically [Benjamin Kampmann](/curators/#ben).  The first version of AWWY was developed and hosted by [Chris Morgan](https://github.com/chris-morgan). All content is licensed under the [Creative Commons Attribution License (International)](https://github.com/bashyHQ/arewewebyet/blob/gh-pages/LICENSE).

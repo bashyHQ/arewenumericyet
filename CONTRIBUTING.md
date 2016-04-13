@@ -6,7 +6,7 @@ The curators might reject any contribution without stating a reason, but especia
 
 ## Submitting a package
 
-If a package isn't listed on the website yet, feel free to send us a pull-request for it. The only requirement we have on packages is that they are related to the web-stack, open source and publicly available via [crates.io](http://www.crates.io) . Please make sure the pull request contains the following:
+If a package isn't listed on the website yet, feel free to send us a pull-request for it. The only requirement we have on packages is that they are related to numerical algorithms, open source and publicly available via [crates.io](http://www.crates.io). Please make sure the pull request contains the following:
 
  - the data for your package (see the [DOCS] on how to do that)
  - adds the package to the appropriate topic(s)
