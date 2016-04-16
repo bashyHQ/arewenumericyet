@@ -35,5 +35,5 @@ learn more about the state of numerical algorithm development in rust by topic:
   {% for post in site.posts | limit:5 %}
     {% include news_item.html post=post %}
   {% endfor %}
-  <li><a href='/news/'>show all</a></li>
+  <li><a href="{{baseurl}}/news/">show all</a></li>
 </ul>
