@@ -2,7 +2,7 @@
 layout: topic
 title: "Compiler"
 
-level: 4
+level: 1
 
 intro: The rustc compiler calls LLVM, and optimizes most code very well.
 
