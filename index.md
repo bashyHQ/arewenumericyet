@@ -6,7 +6,7 @@ layout: main
 
 *You can build stuff!*
 
-<p>Rust has a mature <a href="{{site.baseurl}}/topics/compiler/"compiler</a>{% include level.html level=1%}.</p>
+<p>Rust has a mature <a href="{{site.baseurl}}/topics/compiler/">compiler</a>{% include level.html level=1%}.</p>
 
 <p>&nbsp;</p>
 
