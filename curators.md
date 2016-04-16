@@ -4,7 +4,7 @@ title: Curators
 permalink: /curators/
 ---
 
-<a href="{{site.baseurl}}/">Are We Numeric Yet</a> (AWWY) is curated by:
+<a href="{{site.baseurl}}/">Are We Numeric Yet</a> (AWNY) is curated by:
 
 {% for kv in site.data.authors %}
   {% if kv[1].curator %}
