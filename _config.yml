@@ -1,4 +1,4 @@
-permalink: /news/:year/:month/:day/:title/
+permalink: /arewenumericyet/news/:year/:month/:day/:title/
 safe: true
 lsi: false
 baseurl: /arewenumericyet/
