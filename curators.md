@@ -16,6 +16,6 @@ permalink: /curators/
 
 <div class="alert-box">
   <h3>You want to become a curator?</h3>
-  <p>You want to help us curate this website? Well, that is just awesome. <a href="https://github.com/bashyHQ/arewewebyet/blob/gh-pages/CONTRIBUTING.md#becoming-a-curator" target="_blank">Please follow this guide to join</a>!
+  <p>You want to help us curate this website? Well, that is just awesome. <a href="https://github.com/bashyHQ/arewenumericyet/blob/gh-pages/CONTRIBUTING.md#becoming-a-curator" target="_blank">Please follow this guide to join</a>!
   </p>
 </div>
