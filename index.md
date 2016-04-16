@@ -29,7 +29,7 @@ Either way you choose, if you find yourself stuck and looking for help, the [off
 
 ## In detail
 
-learn more about the state of web developer in rust by topic:
+learn more about the state of numerical algorithm development in rust by topic:
 
 <ul class="topic-list">
   {% for page in site.pages %}

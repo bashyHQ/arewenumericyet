@@ -1,6 +1,6 @@
 # Are We Numeric Yet
 
-[This project](https://github.com/bashyHQ/arewenumericyet) tries to give the answer to the question, "is the [Rust](http://rust-lang.org) ecosystem ready for machine learning and data science yet?" This document gives an overview on the structure of the data, the technologies used and how you can contribute to the project. If you want to see the output of the project, please go to
+[This project](https://github.com/bashyHQ/arewenumericyet) tries to give the answer to the question, "is the [Rust](http://rust-lang.org) ecosystem ready for machine learning and scientific algorithms yet?" This document gives an overview on the structure of the data, the technologies used and how you can contribute to the project. If you want to see the output of the project, please go to
 
 **[arewenumericyet.org](http://www.arewenumericyet.org/)**
 
